@@ -13,6 +13,7 @@ body{
     flex-direction: column;
     height: 100vh;
     background-color: var(--primary-color);
+    font-family: "Righteous",cursive;
 }
 .container{
     height: 100%;
@@ -33,11 +34,37 @@ header a {
     text-decoration: none;
     color: var(--secundary-color);
     font-size: 2rem;
-    font-family: "Righteous",cursive;
+    
 }
 main{
-    background-color: tomato;
     flex-grow: 1;
+}
+.tittle{
+    position: relative;
+    grid-column: 1/-1;
+    place-self:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tittle__texto{
+    color: white;
+    font-size: 20vw;
+}
+.tittle__transparent{
+    font-size: 27vw;
+    position: absolute;
+    top: -50%;
+    color: rgba(255, 255, 255, 0.5);
+    z-index: -1;
+}
+.description{
+    background-color: plum;
+    grid-column: 1/7;
+}
+.action{
+    background-color: aqua;
+    grid-column: 7/-1;
 }
 footer{
     background-color: plum;
