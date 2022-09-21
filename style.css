@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#F5CF06;
+    --secundary-color:#8E4106;                                   
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--primary-color);
+}
+header{
+    background-color: aqua;
+}
+main{
+    background-color: tomato;
+    flex-grow: 1;
+}
+footer{
+    background-color: plum;
+}
