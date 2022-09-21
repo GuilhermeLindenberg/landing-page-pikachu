@@ -59,8 +59,17 @@ main{
     z-index: -1;
 }
 .description{
-    background-color: plum;
+    place-self:start;
     grid-column: 1/7;
+    color: var(--secundary-color);
+}
+.description__tittle{
+    font-size: 4rem;
+
+}
+.description__texto{
+    font-size: 1.2rem;
+    width: 500px;
 }
 .action{
     background-color: aqua;
